@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EB70F6142B3D9DBC009D0BB2 /* WheatherAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70F6132B3D9DBC009D0BB2 /* WheatherAppApp.swift */; };
+		EB70F6142B3D9DBC009D0BB2 /* WheatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70F6132B3D9DBC009D0BB2 /* WheatherApp.swift */; };
 		EB70F6162B3D9DBC009D0BB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70F6152B3D9DBC009D0BB2 /* ContentView.swift */; };
 		EB70F6182B3D9DBF009D0BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB70F6172B3D9DBF009D0BB2 /* Assets.xcassets */; };
 		EB70F61B2B3D9DBF009D0BB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB70F61A2B3D9DBF009D0BB2 /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		EB70F6102B3D9DBC009D0BB2 /* WheatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB70F6132B3D9DBC009D0BB2 /* WheatherAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherAppApp.swift; sourceTree = "<group>"; };
+		EB70F6132B3D9DBC009D0BB2 /* WheatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherApp.swift; sourceTree = "<group>"; };
 		EB70F6152B3D9DBC009D0BB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB70F6172B3D9DBF009D0BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB70F61A2B3D9DBF009D0BB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		EB70F6122B3D9DBC009D0BB2 /* WheatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				EB70F6132B3D9DBC009D0BB2 /* WheatherAppApp.swift */,
+				EB70F6132B3D9DBC009D0BB2 /* WheatherApp.swift */,
 				EB70F6152B3D9DBC009D0BB2 /* ContentView.swift */,
 				EB70F6172B3D9DBF009D0BB2 /* Assets.xcassets */,
 				EB70F6192B3D9DBF009D0BB2 /* Preview Content */,
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB70F6162B3D9DBC009D0BB2 /* ContentView.swift in Sources */,
-				EB70F6142B3D9DBC009D0BB2 /* WheatherAppApp.swift in Sources */,
+				EB70F6142B3D9DBC009D0BB2 /* WheatherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
