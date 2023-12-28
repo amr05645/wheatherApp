@@ -11,7 +11,7 @@ import SwiftUI
 struct WheatherApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(cityName: "Alex")
         }
     }
 }

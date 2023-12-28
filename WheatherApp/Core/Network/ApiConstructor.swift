@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+typealias Parameters = [String: String]
+
+struct ApiConstructor {
+    
+    let endPoint: EndPoint
+    var params: Parameters = [:]
+    
+}

@@ -6,3 +6,19 @@
 //
 
 import Foundation
+
+enum EndPoint {
+    case wheather
+    
+    
+  private var path: String {
+      switch self {
+      case .wheather:
+          return "/current.json"
+      }
+    }
+    
+    var fullPath: String {
+        Constants.apiBaseUrl + path
+    }
+}
