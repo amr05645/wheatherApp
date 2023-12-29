@@ -14,8 +14,8 @@ struct ContentView: View {
     let locationManager = LocationManager()
     
     var userLocation: String {
-        let latitude = "\(locationManager.currentLocation?.coordinate.latitude ?? 0)"
-        let longitude = "\(locationManager.currentLocation?.coordinate.longitude ?? 0)"
+        let latitude = "\(locationManager.currentLocation?.coordinate.latitude ?? 51.5072)"
+        let longitude = "\(locationManager.currentLocation?.coordinate.longitude ?? 0.1276)"
         return "\(latitude),\(longitude)"
     }
     
