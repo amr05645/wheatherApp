@@ -14,7 +14,7 @@ enum EndPoint {
   private var path: String {
       switch self {
       case .wheather:
-          return "/current.json"
+          return "/forecast.json"
       }
     }
     

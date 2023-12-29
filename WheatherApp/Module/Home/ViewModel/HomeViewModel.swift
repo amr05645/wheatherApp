@@ -24,12 +24,10 @@ class HomeViewModel: ObservableObject {
             let apiConstructor = ApiConstructor(endPoint: .wheather)
             let wheatherApiResponse: WheatherModel = try await wheatherService.fetchData(api: apiConstructor, cityName)
             wheather = wheatherApiResponse
-            
             print("result is:", wheather)
             
         } catch {
             errorMessage = "Error: \(error)"
-            print("Error is:", errorMessage)
         }
     }
 }

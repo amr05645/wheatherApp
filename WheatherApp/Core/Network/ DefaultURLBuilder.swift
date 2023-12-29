@@ -21,7 +21,11 @@ enum DefaultURLBuilder {
             throw DefaultURLBuilderError.invalidPath
         }
         
-        urlComponents.queryItems = try  buildQueryParams(api.params, ["key": Constants.apiKey, "q":cityName,  "aqi":"no"])
+        urlComponents.queryItems = try  buildQueryParams(api.params, ["key": Constants.apiKey,
+                                                                      "q": cityName,
+                                                                      "aqi": "no",
+                                                                      "days": "5"]
+        )
         
         guard let url = urlComponents.url else {
             throw DefaultURLBuilderError.invalidUrl

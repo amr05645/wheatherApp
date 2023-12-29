@@ -11,6 +11,15 @@ struct ContentView: View {
     @StateObject private var homeViewModel = HomeViewModel()
     @State var cityName: String
     
+    let locationManager = LocationManager()
+    
+    var userLocation: String {
+        let latitude = "\(locationManager.currentLocation?.coordinate.latitude ?? 0)"
+        let longitude = "\(locationManager.currentLocation?.coordinate.longitude ?? 0)"
+        return "\(latitude),\(longitude)"
+    }
+    
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -30,7 +39,7 @@ struct ContentView: View {
             }
         }
         .task {
-            await homeViewModel.fetchWheatherData(cityName)
+            await homeViewModel.fetchWheatherData(userLocation)
         }
         .padding()
     }
