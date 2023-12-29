@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     @StateObject private var homeViewModel = HomeViewModel()
     @State var cityName: String
     
@@ -46,5 +46,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView(cityName: "")
+    HomeView(cityName: "")
 }

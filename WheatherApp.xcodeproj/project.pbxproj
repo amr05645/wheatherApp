@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EB70F6142B3D9DBC009D0BB2 /* WheatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70F6132B3D9DBC009D0BB2 /* WheatherApp.swift */; };
-		EB70F6162B3D9DBC009D0BB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70F6152B3D9DBC009D0BB2 /* ContentView.swift */; };
+		EB70F6162B3D9DBC009D0BB2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70F6152B3D9DBC009D0BB2 /* HomeView.swift */; };
 		EB70F6182B3D9DBF009D0BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB70F6172B3D9DBF009D0BB2 /* Assets.xcassets */; };
 		EB70F61B2B3D9DBF009D0BB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB70F61A2B3D9DBF009D0BB2 /* Preview Assets.xcassets */; };
 		EB70F6232B3DA4ED009D0BB2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70F6222B3DA4ED009D0BB2 /* Constants.swift */; };
@@ -24,7 +24,7 @@
 /* Begin PBXFileReference section */
 		EB70F6102B3D9DBC009D0BB2 /* WheatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB70F6132B3D9DBC009D0BB2 /* WheatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherApp.swift; sourceTree = "<group>"; };
-		EB70F6152B3D9DBC009D0BB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB70F6152B3D9DBC009D0BB2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EB70F6172B3D9DBF009D0BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB70F61A2B3D9DBF009D0BB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB70F6222B3DA4ED009D0BB2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -71,7 +71,6 @@
 				EB70F6242B3DA54E009D0BB2 /* Core */,
 				EB70F6212B3DA4CB009D0BB2 /* Utils */,
 				EB70F6132B3D9DBC009D0BB2 /* WheatherApp.swift */,
-				EB70F6152B3D9DBC009D0BB2 /* ContentView.swift */,
 				EB70F6172B3D9DBF009D0BB2 /* Assets.xcassets */,
 				EB70F6192B3D9DBF009D0BB2 /* Preview Content */,
 			);
@@ -143,6 +142,7 @@
 		EB70F6312B3DAF0B009D0BB2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EB70F6152B3D9DBC009D0BB2 /* HomeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -225,7 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB70F6162B3D9DBC009D0BB2 /* ContentView.swift in Sources */,
+				EB70F6162B3D9DBC009D0BB2 /* HomeView.swift in Sources */,
 				EB70F6362B3DB000009D0BB2 /* HomeViewModel.swift in Sources */,
 				EBEDAD852B3EBB76004D7D5E /* LocationManager.swift in Sources */,
 				EB70F6142B3D9DBC009D0BB2 /* WheatherApp.swift in Sources */,
