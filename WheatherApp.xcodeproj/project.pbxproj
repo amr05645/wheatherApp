@@ -12,10 +12,7 @@
 		EB70F6182B3D9DBF009D0BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB70F6172B3D9DBF009D0BB2 /* Assets.xcassets */; };
 		EB70F61B2B3D9DBF009D0BB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB70F61A2B3D9DBF009D0BB2 /* Preview Assets.xcassets */; };
 		EB70F6232B3DA4ED009D0BB2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70F6222B3DA4ED009D0BB2 /* Constants.swift */; };
-		EB70F6272B3DA7D7009D0BB2 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70F6262B3DA7D7009D0BB2 /* EndPoint.swift */; };
-		EB70F6292B3DAC8F009D0BB2 /* ApiConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70F6282B3DAC8F009D0BB2 /* ApiConstructor.swift */; };
-		EB70F62B2B3DACCC009D0BB2 /*  DefaultURLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70F62A2B3DACCC009D0BB2 /*  DefaultURLBuilder.swift */; };
-		EB70F62D2B3DAE22009D0BB2 /* WheatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70F62C2B3DAE22009D0BB2 /* WheatherService.swift */; };
+		EB70F62D2B3DAE22009D0BB2 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70F62C2B3DAE22009D0BB2 /* APIService.swift */; };
 		EB70F6342B3DAF3C009D0BB2 /* WheatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70F6332B3DAF3C009D0BB2 /* WheatherModel.swift */; };
 		EB70F6362B3DB000009D0BB2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70F6352B3DB000009D0BB2 /* HomeViewModel.swift */; };
 		EBEDAD852B3EBB76004D7D5E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEDAD842B3EBB76004D7D5E /* LocationManager.swift */; };
@@ -28,10 +25,7 @@
 		EB70F6172B3D9DBF009D0BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB70F61A2B3D9DBF009D0BB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB70F6222B3DA4ED009D0BB2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		EB70F6262B3DA7D7009D0BB2 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
-		EB70F6282B3DAC8F009D0BB2 /* ApiConstructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstructor.swift; sourceTree = "<group>"; };
-		EB70F62A2B3DACCC009D0BB2 /*  DefaultURLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " DefaultURLBuilder.swift"; sourceTree = "<group>"; };
-		EB70F62C2B3DAE22009D0BB2 /* WheatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherService.swift; sourceTree = "<group>"; };
+		EB70F62C2B3DAE22009D0BB2 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		EB70F6332B3DAF3C009D0BB2 /* WheatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherModel.swift; sourceTree = "<group>"; };
 		EB70F6352B3DB000009D0BB2 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		EBEDAD842B3EBB76004D7D5E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
@@ -105,10 +99,7 @@
 		EB70F6252B3DA556009D0BB2 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				EB70F6262B3DA7D7009D0BB2 /* EndPoint.swift */,
-				EB70F6282B3DAC8F009D0BB2 /* ApiConstructor.swift */,
-				EB70F62A2B3DACCC009D0BB2 /*  DefaultURLBuilder.swift */,
-				EB70F62C2B3DAE22009D0BB2 /* WheatherService.swift */,
+				EB70F62C2B3DAE22009D0BB2 /* APIService.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -229,11 +220,8 @@
 				EB70F6362B3DB000009D0BB2 /* HomeViewModel.swift in Sources */,
 				EBEDAD852B3EBB76004D7D5E /* LocationManager.swift in Sources */,
 				EB70F6142B3D9DBC009D0BB2 /* WheatherApp.swift in Sources */,
-				EB70F62B2B3DACCC009D0BB2 /*  DefaultURLBuilder.swift in Sources */,
-				EB70F6272B3DA7D7009D0BB2 /* EndPoint.swift in Sources */,
 				EB70F6232B3DA4ED009D0BB2 /* Constants.swift in Sources */,
-				EB70F6292B3DAC8F009D0BB2 /* ApiConstructor.swift in Sources */,
-				EB70F62D2B3DAE22009D0BB2 /* WheatherService.swift in Sources */,
+				EB70F62D2B3DAE22009D0BB2 /* APIService.swift in Sources */,
 				EB70F6342B3DAF3C009D0BB2 /* WheatherModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
