@@ -35,24 +35,6 @@ struct Condition: Codable {
     let code: Int
 }
 
-enum WheatherIcon: String, Codable {
-    case cdnWeatherapiCOMWeather64X64Day113PNG = "//cdn.weatherapi.com/weather/64x64/day/113.png"
-    case cdnWeatherapiCOMWeather64X64Day116PNG = "//cdn.weatherapi.com/weather/64x64/day/116.png"
-    case cdnWeatherapiCOMWeather64X64Day176PNG = "//cdn.weatherapi.com/weather/64x64/day/176.png"
-    case cdnWeatherapiCOMWeather64X64Night113PNG = "//cdn.weatherapi.com/weather/64x64/night/113.png"
-    case cdnWeatherapiCOMWeather64X64Night116PNG = "//cdn.weatherapi.com/weather/64x64/night/116.png"
-    case cdnWeatherapiCOMWeather64X64Night119PNG = "//cdn.weatherapi.com/weather/64x64/night/119.png"
-    case cdnWeatherapiCOMWeather64X64Night176PNG = "//cdn.weatherapi.com/weather/64x64/night/176.png"
-}
-
-enum WheatherText: String, Codable {
-    case clear = "Clear"
-    case cloudy = "Cloudy"
-    case partlyCloudy = "Partly cloudy"
-    case patchyRainPossible = "Patchy rain possible"
-    case sunny = "Sunny"
-}
-
 // MARK: - Location
 struct Location: Codable {
     let name, region, country: String
