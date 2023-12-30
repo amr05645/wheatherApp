@@ -16,6 +16,7 @@
 		EB70F6342B3DAF3C009D0BB2 /* WheatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70F6332B3DAF3C009D0BB2 /* WheatherModel.swift */; };
 		EB70F6362B3DB000009D0BB2 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB70F6352B3DB000009D0BB2 /* HomeViewModel.swift */; };
 		EB8D81F52B3F0C9C0046D8C0 /* WheatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8D81F42B3F0C9C0046D8C0 /* WheatherViewModel.swift */; };
+		EBC3EE432B3FF4DD0023275D /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC3EE422B3FF4DD0023275D /* UIApplication+Extension.swift */; };
 		EBEDAD852B3EBB76004D7D5E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEDAD842B3EBB76004D7D5E /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		EB70F6332B3DAF3C009D0BB2 /* WheatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherModel.swift; sourceTree = "<group>"; };
 		EB70F6352B3DB000009D0BB2 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		EB8D81F42B3F0C9C0046D8C0 /* WheatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheatherViewModel.swift; sourceTree = "<group>"; };
+		EBC3EE422B3FF4DD0023275D /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		EBEDAD842B3EBB76004D7D5E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 		EB70F6242B3DA54E009D0BB2 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				EBC3EE412B3FF4BC0023275D /* Extensions */,
 				EB70F6252B3DA556009D0BB2 /* Network */,
 			);
 			path = Core;
@@ -147,6 +150,14 @@
 				EB8D81F42B3F0C9C0046D8C0 /* WheatherViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EBC3EE412B3FF4BC0023275D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EBC3EE422B3FF4DD0023275D /* UIApplication+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +234,7 @@
 				EB70F6362B3DB000009D0BB2 /* HomeViewModel.swift in Sources */,
 				EBEDAD852B3EBB76004D7D5E /* LocationManager.swift in Sources */,
 				EB70F6142B3D9DBC009D0BB2 /* WheatherApp.swift in Sources */,
+				EBC3EE432B3FF4DD0023275D /* UIApplication+Extension.swift in Sources */,
 				EB70F6232B3DA4ED009D0BB2 /* Constants.swift in Sources */,
 				EB70F62D2B3DAE22009D0BB2 /* APIService.swift in Sources */,
 				EB8D81F52B3F0C9C0046D8C0 /* WheatherViewModel.swift in Sources */,
